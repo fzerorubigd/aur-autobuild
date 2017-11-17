@@ -1,0 +1,24 @@
+[submodule "jdk"]
+	path = jdk
+	url = https://aur.archlinux.org/jdk.git
+	branch = master
+[submodule "phpstorm"]
+	path = phpstorm
+	url = https://aur.archlinux.org/phpstorm.git
+	branch = master
+[submodule "phpstorm-jre"]
+	path = phpstorm-jre
+	url = https://aur.archlinux.org/phpstorm.git
+	branch = master
+[submodule "jre"]
+	path = jre
+	url = https://aur.archlinux.org/jre.git
+	branch = master
+[submodule "goland-eap"]
+	path = goland-eap
+	url = https://aur.archlinux.org/goland-eap.git
+	branch = master
+[submodule "goland-eap-jre"]
+	path = goland-eap-jre
+	url = https://aur.archlinux.org/goland-eap.git
+	branch = master
