@@ -8,7 +8,7 @@ cache:
     - repo/
 
 before_install:
-  # - openssl aes-256-cbc -K <key> -iv <IV> -in secrets.tar.gz.enc -out secrets.tar.gz -d
+  - openssl aes-256-cbc -K $encrypted_710e3e99014d_key -iv $encrypted_710e3e99014d_iv -in secrets.tar.gz.enc -out secrets.tar.gz -d
   - tar xvfz secrets.tar.gz
   - chmod 600 deploy_key
   - docker build --build-arg USER_ID="$(id -u)" -t "$DOCKER_TAG" docker/
