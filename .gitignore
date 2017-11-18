@@ -2,3 +2,4 @@ repo/
 *.pgp
 deploy_key*
 secrets.tar.gz
+ftp-credential

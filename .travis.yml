@@ -1,5 +1,8 @@
 sudo: required
-
+addons:
+  apt:
+    packages:
+    - rsync
 services:
   - docker
 
@@ -18,19 +21,16 @@ script:
 
 deploy:
   provider: script
-  script: ./deploy.sh
+  script: "./deploy-rsync.sh"
   skip_cleanup: true
   on:
     branch: master
-
 notifications:
   email:
     on_success: change
     on_failure: always
-
 branches:
   only: master
-
 env:
   global:
     - PUSH_BRANCH=gh-pages
