@@ -58,3 +58,39 @@
 	path = cow-proxy-git
 	url = https://aur.archlinux.org/cow-proxy-git.git
 	branch = master
+[submodule "virtualbox-ext-oracle"]
+	path = virtualbox-ext-oracle
+	url = https://aur.archlinux.org/virtualbox-ext-oracle.git
+	branch = master
+[submodule "shadowsocks-go"]
+	path = shadowsocks-go
+	url = https://aur.archlinux.org/shadowsocks-go.git
+	branch = master
+[submodule "slack-desktop"]
+	path = slack-desktop
+	url = https://aur.archlinux.org/slack-desktop.git
+	branch = master
+[submodule "dropbox"]
+	path = dropbox
+	url = https://aur.archlinux.org/dropbox.git
+	branch = master
+[submodule "android-sdk"]
+	path = android-sdk
+	url = https://aur.archlinux.org/android-sdk.git
+	branch = master
+[submodule "android-sdk-platform-tools"]
+	path = android-sdk-platform-tools
+	url = https://aur.archlinux.org/android-sdk-platform-tools.git
+	branch = master
+[submodule "android-studio"]
+	path = android-studio
+	url = https://aur.archlinux.org/android-studio.git
+	branch = master
+[submodule "selenium-server-standalone"]
+	path = selenium-server-standalone
+	url = https://aur.archlinux.org/selenium-server-standalone.git
+	branch = master
+[submodule "teamviewer"]
+	path = teamviewer
+	url = https://aur.archlinux.org/teamviewer.git
+	branch = master
