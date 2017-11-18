@@ -50,3 +50,7 @@
 	path = visual-studio-code
 	url = https://aur.archlinux.org/visual-studio-code.git
 	branch = master
+[submodule "android-emulator"]
+	path = android-emulator
+	url = https://aur.archlinux.org/android-emulator.git
+	branch = master
