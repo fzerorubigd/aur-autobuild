@@ -17,7 +17,7 @@ before_install:
   - docker build --build-arg USER_ID="$(id -u)" -t "$DOCKER_TAG" docker/
 
 script:
-  - docker run -e REPO_NAME="$REPO_NAME" -v "$PWD":/home/builder/aur-build "$DOCKER_TAG"
+  - travis_wait 30 docker run -e REPO_NAME="$REPO_NAME" -v "$PWD":/home/builder/aur-build "$DOCKER_TAG"
 
 deploy:
   provider: script
