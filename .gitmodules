@@ -62,10 +62,6 @@
 	path = virtualbox-ext-oracle
 	url = https://aur.archlinux.org/virtualbox-ext-oracle.git
 	branch = master
-[submodule "shadowsocks-go"]
-	path = shadowsocks-go
-	url = https://aur.archlinux.org/shadowsocks-go.git
-	branch = master
 [submodule "slack-desktop"]
 	path = slack-desktop
 	url = https://aur.archlinux.org/slack-desktop.git
