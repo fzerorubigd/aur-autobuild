@@ -54,3 +54,7 @@
 	path = android-emulator
 	url = https://aur.archlinux.org/android-emulator.git
 	branch = master
+[submodule "cow-proxy-git"]
+	path = cow-proxy-git
+	url = https://aur.archlinux.org/cow-proxy-git.git
+	branch = master
