@@ -22,3 +22,7 @@
 	path = goland-eap-jre
 	url = https://aur.archlinux.org/goland-eap.git
 	branch = master
+[submodule "pgmodeler"]
+	path = pgmodeler
+	url = https://aur.archlinux.org/pgmodeler.git
+	branch = master
