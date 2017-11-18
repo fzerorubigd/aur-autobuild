@@ -26,3 +26,27 @@
 	path = pgmodeler
 	url = https://aur.archlinux.org/pgmodeler.git
 	branch = master
+[submodule "keybase-bin"]
+	path = keybase-bin
+	url = https://aur.archlinux.org/keybase-bin.git
+	branch = master
+[submodule "kubectl-bin"]
+	path = kubectl-bin
+	url = https://aur.archlinux.org/kubectl-bin.git
+	branch = master
+[submodule "telegram-desktop-bin"]
+	path = telegram-desktop-bin
+	url = https://aur.archlinux.org/telegram-desktop-bin.git
+	branch = master
+[submodule "genymotion"]
+	path = genymotion
+	url = https://aur.archlinux.org/genymotion.git
+	branch = master
+[submodule "tor-browser"]
+	path = tor-browser
+	url = https://aur.archlinux.org/tor-browser.git
+	branch = master
+[submodule "visual-studio-code"]
+	path = visual-studio-code
+	url = https://aur.archlinux.org/visual-studio-code.git
+	branch = master
