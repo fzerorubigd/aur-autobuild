@@ -90,3 +90,19 @@
 	path = teamviewer
 	url = https://aur.archlinux.org/teamviewer.git
 	branch = master
+[submodule "broadcom-wl"]
+	path = broadcom-wl
+	url = https://aur.archlinux.org/broadcom-wl.git
+	branch = master
+[submodule "downgrade"]
+	path = downgrade
+	url = https://aur.archlinux.org/downgrade.git
+	branch = master
+[submodule "openoffice"]
+	path = openoffice
+	url = https://aur.archlinux.org/openoffice.git
+	branch = master
+[submodule "dukto"]
+	path = dukto
+	url = https://aur.archlinux.org/dukto.git
+	branch = master
