@@ -106,3 +106,15 @@
 	path = dukto
 	url = https://aur.archlinux.org/dukto.git
 	branch = master
+[submodule "webstorm"]
+	path = webstorm
+	url = https://aur.archlinux.org/webstorm.git
+	branch = master
+[submodule "webstorm-jre"]
+	path = webstorm-jre
+	url = https://aur.archlinux.org/webstorm.git
+	branch = master
+[submodule "spotify"]
+	path = spotify
+	url = https://aur.archlinux.org/spotify.git
+	branch = master
